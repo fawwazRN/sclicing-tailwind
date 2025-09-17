@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+    <title>Document</title>
+  </head>
+  <body class="bg-warna-utama font-teks-utama text-warna-teks">
+    <header
+      class="flex items-center justify-between fixed w-full px-10 py-2 bg-[#680000f6] z-50 lg:px-28 lg:py-3">
+      <!-- mobile -->
+      <p class="text-xl font-semibold lg:w-3/4 lg:text-2xl">FAWWAZ</p>
+      <svg
+        class="w-10 lg:hidden"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <path
+            d="M4 6H20M4 12H20M4 18H20"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </g>
+      </svg>
+      <nav
+        class="absolute top-14 left-0 text-right bg-gray-700 w-full px-10 py-2 font-semibold hidden">
+        <ul class="">
+          <li class="my-3"><a href="#">Home</a></li>
+          <li class="my-3"><a href="#">About</a></li>
+          <li class="my-3"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav class="w-2/5 font-semibold hidden lg:block">
+        <ul class="flex justify-between text-xl">
+          <li class="my-3"><a href="#">Home</a></li>
+          <li class="my-3"><a href="#">About</a></li>
+          <li class="my-3"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- hero -->
+    <section
+      id="hero"
+      class="w-full h-screen flex flex-col justify-center items-center text-center lg:flex-row lg:justify-between lg:px-28">
+      <div
+        class="kotak-kata flex flex-col justify-center items-center text-center gap-9 px-10 lg:w-1/2 lg:text-left lg:justify-start lg:items-start">
+        <h1 class="text-5xl font-bold lg:text-7xl">
+          There's a better way to grow
+        </h1>
+        <p class="lg:text-xl">
+          Are you having a hard time growing your online business? Our team can
+          help.
+        </p>
+        <button
+          class="text-[#680000] bg-white font-bold px-5 py-2 uppercase lg:px-10 lg:text-xl lg:py-3">
+          Get Started
+        </button>
+      </div>
+      <div class="kotak-gambar lg:w-1/2 lg:flex justify-end hidden">
+        <img src="img/orang.svg" alt="" />
+      </div>
+    </section>
+    <!-- featured on -->
+    <section id="featured" class="px-10 mt-20 lg:mt-36 lg:px-28 w-full flex flex-col items-center">
+      <h2 class="text-xl mb-7 uppercase font-semibold lg:text-2xl lg:font-bold">
+        featured on
+      </h2>
+      <div
+        class="bg-[#ffffff10] rounded-lg flex flex-col items-center justify-center gap-14 py-14 lg:flex-row lg:justify-between lg:py-5 lg:px-10 lg:w-max px-10">
+        <img src="img/abudzar.png" alt="" class="w-36" />
+        <img src="img/sunnahstyle.png" alt="" class="w-36" />
+        <img src="img/icon-fawwaz.png" alt="" class="w-36" />
+        <img src="img/bulan-sabit.png" alt="" class="w-36" />
+      </div>
+    </section>
+    <!-- discover -->
+    <section
+      id="discover"
+      class="mt-32 flex flex-col items-center justify-center text-center gap-6 px-10 lg:px-28 lg:mt-80">
+      <h2 class="text-3xl font-bold lg:text-5xl">
+        Discover new business strategies
+      </h2>
+      <p class="lg:mb-10 lg:text-xl">
+        Thousands of startups trust us with our effective and efficient business
+        techniques
+      </p>
+      <button
+        class="uppercase text-[#680000] bg-white font-bold px-5 py-2 lg:px-10 lg:text-xl lg:py-3">
+        about us
+      </button>
+    </section>
+    <!-- warna tambahan -->
+    <!-- <div
+      id="warnaTambahan"
+      class="absolute bg-warna-second h-[175vh] w-full -z-50 mt-64 lg:mt-[450px] lg:h-[135vh]"></div> -->
+    <!-- penjelasan -->
+    <section
+      id="penjelasan"
+      class="px-10 flex flex-col gap-32 items-center justify-center text-center lg:px-28 lg:mt-96 bg-warna-second mt-64 w-full pb-10 lg:py-14">
+      <article
+        class="flex flex-col justify-center items-center text-center lg:flex-row lg:w-full lg:justify-start lg:items-center lg:gap-20 -mt-20 lg:-mt-28">
+        <img
+          class="w-full mb-11 h-[350px] object-cover rounded-lg lg:w-80 lg:h-[500px]"
+          src="https://images.unsplash.com/photo-1755004609094-1d91b019aaa2?q=80&w=734&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="" />
+        <div
+          class="flex flex-col lg:text-left lg:w-1/4 justify-center items-center lg:items-start">
+          <h2 class="text-3xl mb-4 font-bold lg:text-5xl lg:mb-7">
+            We take our work seriously
+          </h2>
+          <p class="mb-4 lg:mb-10 lg:text-xl">
+            Wasting time is not in our vocabulary. You can expect to get
+            effective results in no time.
+          </p>
+          <button
+            class="uppercase text-[#680000] bg-white font-bold px-5 py-2 lg:px-10 lg:text-xl lg:py-3 w-max">
+            contact us
+          </button>
+        </div>
+      </article>
+      <article
+        class="flex flex-col justify-center items-center text-center lg:flex-row-reverse lg:w-full lg:justify-start lg:items-center lg:gap-20">
+        <img
+          class="w-full mb-11 h-[200px] object-cover rounded-lg lg:w-80 lg:h-64 lg:mb-0"
+          src="https://images.pexels.com/photos/162539/architecture-building-amsterdam-blue-sky-162539.jpeg?_gl=1*qrf4wt*_ga*MzkzOTcxOTg1LjE3MjgzNTc2NTM.*_ga_8JE65Q40S6*czE3NTc5MTcyNjkkbzIyJGcxJHQxNzU3OTE3Mjk1JGozNCRsMCRoMA.."
+          alt="" />
+        <div
+          class="flex flex-col lg:text-left lg:w-1/4 justify-center items-center lg:items-start">
+          <h2 class="text-3xl mb-4 font-bold lg:text-5xl lg:mb-7">
+            Grow your business fast
+          </h2>
+          <p class="mb-4 lg:mb-10 lg:text-xl">
+            We understand how hard it is to grow a business. That's why we're
+            here to do it for you.
+          </p>
+          <button
+            class="uppercase text-[#680000] bg-white font-bold px-5 py-2 lg:px-10 lg:text-xl lg:py-3 w-max">
+            contact us
+          </button>
+        </div>
+      </article>
+    </section>
+    <!-- testimoni -->
+    <section id="testimoni" class="mt-32 text-center px-5 lg:px-28 lg:mt-36">
+      <h3 class="text-2xl mb-3 lg:text-3xl">testimonials</h3>
+      <h2 class="text-3xl font-bold mb-28 lg:text-5xl lg:mb-60">
+        Read what others say about us
+      </h2>
+      <div id="isi-testimoni" class="flex flex-col gap-36 lg:flex-row lg:gap-10 lg:justify-between">
+        <article
+          class="flex flex-col gap-2 justify-start items-center bg-[#730000] relative pt-24 px-5 py-5 rounded-lg">
+          <img
+            class="w-36 h-36 rounded-full absolute -top-20 inset-x-auto"
+            src="https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg"
+            alt="" />
+          <h2 class="uppercase mb-3 font-bold lg:text-xl">ron williams</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a leo
+            lacus. Sed ac libero nibh. Etiam porttitor eros nec nunc aliquet, a
+            sollicitudin ipsum hendrerit.
+          </p>
+        </article>
+        <article
+          class="flex flex-col gap-2 justify-start items-center bg-[#730000] relative pt-24 px-5 py-5 rounded-lg">
+          <img
+            class="w-36 h-36 rounded-full absolute -top-20 inset-x-auto"
+            src="https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?_gl=1*1knx5c2*_ga*MzkzOTcxOTg1LjE3MjgzNTc2NTM.*_ga_8JE65Q40S6*czE3NTcwNDQ2NTQkbzE1JGcxJHQxNzU3MDQ0ODY1JGoxOSRsMCRoMA.."
+            alt="" />
+          <h2 class="uppercase mb-3 font-bold lg:text-xl">anna phils</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a leo
+            lacus. Sed ac libero nibh. Etiam porttitor eros nec nunc aliquet, a
+            sollicitudin ipsum hendrerit.
+          </p>
+        </article>
+        <article
+          class="flex flex-col gap-2 justify-start items-center bg-[#730000] relative pt-24 px-5 py-5 rounded-lg">
+          <img
+            class="w-36 h-36 rounded-full absolute -top-20 inset-x-auto"
+            src="https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?_gl=1*mfzdat*_ga*MzkzOTcxOTg1LjE3MjgzNTc2NTM.*_ga_8JE65Q40S6*czE3NTc5OTE1MDgkbzIzJGcxJHQxNzU3OTkxNTEzJGo1NSRsMCRoMA.."
+            alt="" />
+          <h2 class="uppercase mb-3 font-bold lg:text-xl">marry madison</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a leo
+            lacus. Sed ac libero nibh. Etiam porttitor eros nec nunc aliquet, a
+            sollicitudin ipsum hendrerit.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- get started -->
+    <section
+      id="get-started"
+      class="px-5 mt-32 w-full h-screen flex flex-col items-center justify-center text-center bg-warna-second lg:px-28 lg:mt-36">
+      <h2 class="uppercase mb-3 font-semibold lg:text-xl">the beginning</h2>
+      <h1 class="text-3xl font-bold mb-10 lg:text-5xl">
+        Get ready as your journey to success starts here
+      </h1>
+      <button
+        class="uppercase text-[#680000] bg-white font-bold px-5 py-2 lg:px-12 lg:text-xl lg:py-4">
+        get started
+      </button>
+    </section>
+    <!-- footer -->
+    <section
+      id="footer"
+      class="flex flex-col gap-10 mt-32 px-5 lg:px-28 lg:mt-36 lg:flex-row lg:justify-between lg:text-xl">
+      <p class="text-xl font-semibold">FAWWAZ</p>
+      <div id="navigation" class="flex flex-col gap-3">
+        <h2 class="mb-3 font-bold">Navigation</h2>
+        <div class="flex flex-col gap-3">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact us</a>
+        </div>
+      </div>
+      <div id="contact" class="flex flex-col gap-3">
+        <h2 class="mb-3 font-bold">Contact</h2>
+        <div class="flex flex-col gap-3">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Linkedin</a>
+        </div>
+      </div>
+      <div id="Address" class="flex flex-col gap-3">
+        <h2 class="mb-3 font-bold">Address</h2>
+        <p>3807 Geneva Street Brooklyn, New York</p>
+      </div>
+      <div id="newsletter" class="flex flex-col gap-3">
+        <h2 class="mb-3 font-bold">Newsletter</h2>
+        <div id="input" class="flex">
+          <input
+            type="email"
+            class="w-full h-10 bg-[#8c3d3d] rounded-s-md outline-none pl-4 placeholder:text-sm pr-2"
+            placeholder="Email Address" />
+          <button
+            class="text-[#680000] bg-white font-bold rounded-md px-7 text-2xl z-20 h-10 -ml-1">
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="mt-20 px-5 text-center py-2 bg-warna-second lg:py-6 lg:px-28 lg:mt-24">
+      <p class="lg:text-xl">Copyright © 2023 Logo. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
