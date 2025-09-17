@@ -20,7 +20,8 @@
       <!-- mobile -->
       <p class="text-xl font-semibold lg:w-3/4 lg:text-2xl">FAWWAZ</p>
       <svg
-        class="w-10 lg:hidden"
+        class="w-10 lg:hidden cursor-pointer"
+        id="humberger"
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -39,7 +40,8 @@
         </g>
       </svg>
       <nav
-        class="absolute top-14 left-0 text-right bg-gray-700 w-full px-10 py-2 font-semibold hidden">
+        class="absolute top-14 left-0 text-right bg-gray-700 w-full px-10 py-2 font-semibold hidden"
+        id="navigasi">
         <ul class="">
           <li class="my-3"><a href="#">Home</a></li>
           <li class="my-3"><a href="#">About</a></li>
@@ -77,7 +79,9 @@
       </div>
     </section>
     <!-- featured on -->
-    <section id="featured" class="px-10 mt-20 lg:mt-36 lg:px-28 w-full flex flex-col items-center">
+    <section
+      id="featured"
+      class="px-10 mt-20 lg:mt-36 lg:px-28 w-full flex flex-col items-center">
       <h2 class="text-xl mb-7 uppercase font-semibold lg:text-2xl lg:font-bold">
         featured on
       </h2>
@@ -162,7 +166,9 @@
       <h2 class="text-3xl font-bold mb-28 lg:text-5xl lg:mb-60">
         Read what others say about us
       </h2>
-      <div id="isi-testimoni" class="flex flex-col gap-36 lg:flex-row lg:gap-10 lg:justify-between">
+      <div
+        id="isi-testimoni"
+        class="flex flex-col gap-36 lg:flex-row lg:gap-10 lg:justify-between">
         <article
           class="flex flex-col gap-2 justify-start items-center bg-[#730000] relative pt-24 px-5 py-5 rounded-lg">
           <img
@@ -260,5 +266,18 @@
       class="mt-20 px-5 text-center py-2 bg-warna-second lg:py-6 lg:px-28 lg:mt-24">
       <p class="lg:text-xl">Copyright © 2023 Logo. All rights reserved.</p>
     </footer>
+    <script>
+      const hum = document.getElementById("humberger");
+      const navigasi = document.getElementById("navigasi");
+
+      hum.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (navigasi.classList.contains("hidden")) {
+          navigasi.classList.remove("hidden");
+        } else {
+          navigasi.classList.add('hidden');
+        }
+      });
+    </script>
   </body>
 </html>
